@@ -1,28 +1,28 @@
 class Cursordump < Formula
   desc "Explore Cursor agent sessions, export SFT/CPT datasets, full backups"
   homepage "https://github.com/lpalbou/CursorDump"
-  version "0.9.0"
+  version "0.10.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/lpalbou/CursorDump/releases/download/v0.9.0/cursordump-v0.9.0-aarch64-apple-darwin.tar.gz"
-      sha256 "57c3ed199f7cb305d301435a04c9adbcd094c4458d8c0302109b00bd748c2ed6"
+      url "https://github.com/lpalbou/CursorDump/releases/download/v0.10.0/cursordump-v0.10.0-aarch64-apple-darwin.tar.gz"
+      sha256 "bd79532d758e0f92c6bc8408928df789b46aa4c25c3d37367094ecef3811c46c"
     end
     on_intel do
-      url "https://github.com/lpalbou/CursorDump/releases/download/v0.9.0/cursordump-v0.9.0-x86_64-apple-darwin.tar.gz"
-      sha256 "24405f737a659e16a0675e0a31fb8f32d2f90b17e74178d6c33174b803ef7581"
+      url "https://github.com/lpalbou/CursorDump/releases/download/v0.10.0/cursordump-v0.10.0-x86_64-apple-darwin.tar.gz"
+      sha256 "958d8d382aac08fc03a68978a2b403f7cc07601a88c07071565b280be3187ea7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/lpalbou/CursorDump/releases/download/v0.9.0/cursordump-v0.9.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "3980690a886c08200ebf56f86df908aaa06f5fab01e4751d2452e0c6981ed581"
+      url "https://github.com/lpalbou/CursorDump/releases/download/v0.10.0/cursordump-v0.10.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "30fcd63925c7e70a79291312c3786ead15657b102ad8a0cefab17030546b3948"
     end
     on_intel do
-      url "https://github.com/lpalbou/CursorDump/releases/download/v0.9.0/cursordump-v0.9.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "3093bcecd4a3a6102493230b48d5e81a4baa94b47ec66c83c207851e67831283"
+      url "https://github.com/lpalbou/CursorDump/releases/download/v0.10.0/cursordump-v0.10.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "a95e212aa62eb1b1c633ab744475478e88350df7a16627a2e7d2c0b4573e1ee4"
     end
   end
 
